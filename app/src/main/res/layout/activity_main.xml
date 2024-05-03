@@ -83,7 +83,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextText9"
+                    android:id="@+id/weightInput"
                     android:layout_width="105dp"
                     android:layout_height="70dp"
                     android:fontFamily="cursive"
@@ -115,11 +115,11 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextText10"
+                    android:id="@+id/heightInput"
                     android:layout_width="105dp"
                     android:layout_height="70dp"
                     android:fontFamily="cursive"
-                    android:hint="KG"
+                    android:hint="CM"
                     android:inputType="text"
                     android:textAlignment="center"
                     android:textSize="20sp"
@@ -135,7 +135,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/calculateBtn"
                 android:layout_width="264dp"
                 android:layout_height="39dp"
                 android:layout_marginBottom="28dp"
@@ -146,22 +146,23 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/bmiResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
+                android:layout_marginTop="48dp"
                 android:fontFamily="cursive"
                 android:text="Result"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/button3"
+                app:layout_constraintBottom_toTopOf="@+id/calculateBtn"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.582" />
+                app:layout_constraintVertical_bias="0.227" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
